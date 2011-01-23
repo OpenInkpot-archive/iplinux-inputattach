@@ -52,6 +52,9 @@
 
 #include "serio-ids.h"
 
+# define CRTSCTS  020000000000          /* flow control */
+
+
 static int readchar(int fd, unsigned char *c, int timeout)
 {
 	struct timeval tv;
