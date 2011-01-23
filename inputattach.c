@@ -46,6 +46,9 @@
 #include <sys/ioctl.h>
 #include <termios.h>
 #include <unistd.h>
+#include <sys/time.h>
+
+#define CRTSCTS  020000000000          /* flow control */
 
 static int readchar(int fd, unsigned char *c, int timeout)
 {
