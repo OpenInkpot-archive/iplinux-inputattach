@@ -1,0 +1,17 @@
+Source: inputattach
+Section: core
+Maintainer: Yauhen Kharuzhy <jekhor@gmail.com>
+Build-Depends: debhelper (>= 7)
+XCS-Cross-Host-Build-Depends: debhelper (>= 7)
+XCS-Cross-Build-Depends:
+Priority: optional
+Standards-Version: 3.8.0
+
+Package: inputattach
+Priority: optional
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: utility to connect serial-attached peripherals to the input subsystem
+ inputattach connects legacy serial-attached input peripherals to the input
+ subsystem: keyboards, mice, joysticks, touch-screens...
+
