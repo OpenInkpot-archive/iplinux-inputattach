@@ -672,7 +672,7 @@ int main(int argc, char **argv)
 		retval = EXIT_FAILURE;
 	}
 
-+	for (errno = 0; errno != EINTR; read(fd, NULL, 0)) ;
+	for (errno = 0; errno != EINTR; read(fd, NULL, 0)) ;
 
 	ldisc = 0;
 	ioctl(fd, TIOCSETD, &ldisc);
