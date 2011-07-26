@@ -1,3 +1,9 @@
+inputattach (1.24-2) asimov; urgency=low
+
+  * Description: do not abort when catching a recoverable signal.
+
+ -- Yauhen Kharuzhy <jekhor@gmail.com>  Tue, 26 Jul 2011 15:34:30 +0300
+
 inputattach (1.24-1) asimov; urgency=low
 
   * Initial release.
