@@ -1,3 +1,9 @@
+inputattach (1.24-3) asimov; urgency=low
+
+  * Handle 'retry' errors properly at read()
+
+ -- Yauhen Kharuzhy <jekhor@gmail.com>  Thu, 04 Aug 2011 11:15:00 +0300
+
 inputattach (1.24-2) asimov; urgency=low
 
   * Description: do not abort when catching a recoverable signal.
