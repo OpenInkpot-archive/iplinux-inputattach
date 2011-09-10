@@ -1,6 +1,7 @@
 Source: inputattach
 Section: core
 Maintainer: Yauhen Kharuzhy <jekhor@gmail.com>
+Uploaders: Alexander Kerner <lunohod@openinkpot.org>
 Build-Depends: debhelper (>= 7)
 XCS-Cross-Host-Build-Depends: debhelper (>= 7)
 XCS-Cross-Build-Depends:
