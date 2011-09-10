@@ -1,3 +1,9 @@
+inputattach (1.24-4) zelazny; urgency=low
+
+  * Rebuild the package in zelazny
+
+ -- Alexander Kerner <lunohod@openinkpot.org>  Sun, 11 Sep 2011 00:30:55 +0200
+
 inputattach (1.24-3) asimov; urgency=low
 
   * Handle 'retry' errors properly at read()
