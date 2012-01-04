@@ -123,5 +123,6 @@
 # define SERIO_W8001		0x39
 #endif
 #define SERIO_PRS505_SUBCPU 0x3d
+#define SERIO_E60_TS 0x3e
 
 #endif
