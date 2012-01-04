@@ -1,3 +1,9 @@
+inputattach (1.24-5) zelazny; urgency=low
+
+  * Add support for Samsung E60 touchscreen
+
+ -- Alexander Kerner <lunohod@openinkpot.org>  Wed, 04 Jan 2012 01:07:12 +0100
+
 inputattach (1.24-4) zelazny; urgency=low
 
   * Rebuild the package in zelazny
