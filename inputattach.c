@@ -543,7 +543,7 @@ static struct input_types input_types[] = {
 	B38400, CS8 | CRTSCTS | PARENB,
 	SERIO_PRS505_SUBCPU,		0x00,	0x00,	0,	NULL },
 { "--e60ts",		"-e60ts",	"Samsung E60 touchscreen",
-	B38400, CS8,
+	B19200, CS8,
 	SERIO_E60_TS,		0x00,	0x00,	0,	NULL },
 { "--dump",		"-dump",	"Just enable device",
 	B2400, CS8,
